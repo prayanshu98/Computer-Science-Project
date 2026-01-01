@@ -228,3 +228,20 @@ def view_deliveries():
 # ---------- START PROGRAM ----------#
 main_menu()
 
+
+''' **SQL Queries**
+Query1: Create Database xtreme;
+
+Query2: use xtreme;
+
+Query3: CREATE TABLE customer(cust_id int PRIMARY KEY,name varchar(30),email varchar(40),address varchar(50),phone bigint);
+
+Query4: CREATE TABLE product (pid int PRIMARY KEY,pname varchar(30),company varchar(30),sport varchar(20),price int,size varchar(10));
+
+Query5: CREATE TABLE delivery (delivery_id int PRIMARY KEY, c_id int,customer_name varchar(30), product_name varchar(30), company varchar(30), total_price int, address varchar(50));
+
+Query6: CREATE TABLE returns(delivery_id int, customer_name varchar(30),product_name varchar(30), total_price int, address varchar(50),reason varchar(50));
+
+Query7: INSERT INTO product (pid, pname, company, sport, price, size) VALUES(101,'bat','MRF','cricket',5000,'regular'), (102,'ball','SS','cricket',700,'regular'), (103,'gloves','GM','cricket',1500,'medium'), (104,'jersey','Nike','cricket',1000,'large'), (105,'hockeystick','Adidas','hockey',500,'regular');
+
+'''
